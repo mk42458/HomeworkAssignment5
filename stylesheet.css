@@ -1,1 +1,39 @@
+/* Applies style to all <p> tags */
+p {
+	color: blue;
+	font-size: 20px;
+}
+
+/* Applies style to all elements with class "section" */
+.section {
+	border: 1px solid black;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+/* Applies style to the element with id "my-id" */
+#my-id {
+	background-color: yellow;
+}
+
+/* Changes color of <a> on hover */
+a:hover {
+	color: red;
+}
+
+/* Changes box model properties of <div> */
+div {
+	border: 2px solid black;
+	padding: 15px;
+}
+
+/* Changes box model properties of elements with class "box" */
+.box {
+	margin: 10px;
+	width: 200px;
+	height: 200px;
+	border: 1px solid green;
+	padding: 20px;
+	box-shadow: 5px 5px 5px grey;
+}
 
